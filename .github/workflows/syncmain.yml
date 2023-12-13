@@ -31,8 +31,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          submodules: true
+        #with:
+         # submodules: true
       - name: GitHub Sync to Upstream Repository
         uses: dabreadman/sync-upstream-repo@v1.3.0
         with: 
